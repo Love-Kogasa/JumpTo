@@ -1,0 +1,50 @@
+<doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="./style/bulma.min.css">
+    <script src="./module/three.min.js"></script>
+    <script src="./module/sweetalert.min.js"></script>
+    <script src="./module/vanta.globe.min.js"></script>
+    <script src="./script/index.js"></script>
+    <link rel="icon" href="./favicon.png">
+  </head>
+  <body onload="main( input, submit, copy )">
+    <nav class="navbar">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="./index.html"><span class="button is-success">↗</span> <b>JumpTo</b></a>
+        <a class="navbar-burger" role="button" aria-label="menu" href="javascript:menuof.classList.toggle( 'is-active' )">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+      <div class="navbar-menu" id="menuof" style="
+        position : absolute;
+        z-index : 2;
+        background-color : #EEE;
+        width : 100%;
+      ">
+        <div class="navbar-start">
+          <a class="navbar-item" href="./index.html">Index page</a>
+          <a class="navbar-item" href="https://proxy.xn--imrry7s001seda.us.kg/-----https://love-kogasa.github.io/TouhouMobile/money.html">Buy me a coffee( Me ) </a>
+        </div>
+        <div class="navbar-end">
+          <a class="navbar-item" href="https://proxy.xn--imrry7s001seda.us.kg/">
+            <button class="button is-primary">BASE URL</button>
+          </a>
+        </div>
+      </div>
+    </nav>
+    <div style="padding : 7%;">
+      <h1 class="title" style="color : white;">去哪里w</h1>
+      <h3 class="subtitle" style="color : #CCC;">Please input URL as u want visit but cant visit s website<br>
+      base api from <i>Nullify</i></h3>
+      <input class="input is-link" id="input" type="text" placeholder="please input a complete url" />
+        <a class="button is-link" id="submit" href="javascript:swal( 'Error', '还没告诉我要去哪里呢w', 'error' )">Visit Link Now</a><br>
+        <a class="button is-link" id="copy" href="javascript:swal( 'Error', '还没告诉我要去哪里呢w', 'error' )">Copy URL</a>
+    </div>
+  </body>
+</html>
